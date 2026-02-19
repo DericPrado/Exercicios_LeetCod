@@ -23,24 +23,24 @@
 
             char[] bins = bin.ToCharArray();
 
-            char c = 'A';
-            char d = 'B';
+            LinkedList linkedList = new LinkedList();
 
-            for (int i = 0; i < bins.Length; i++)
+            foreach (char b in bins)
             {
-                if(i == 0)
-                {
-                    c = bins[i];
-                }
-                else
-                {
-                    d = bins[i];
-                }
+                linkedList.AddLast(b);
+            }
 
-                if(c == d)
+            Node current = linkedList.Head;
+            while(current != null)
+            {
+                if (current.Next != null)
                 {
-                    return false;
+                    if (current.Data == current.Next.Data)
+                    {
+                        return false;
+                    }
                 }
+                current = current.Next;
             }
 
             return true;
@@ -49,6 +49,51 @@
         public static string IntegerToBinary(int n)
         {
             return Convert.ToString(n, 2);
+        }
+
+        public class Node
+        {
+            public char Data;
+            public Node Next;
+
+            public Node(char value)
+            {
+                Data = value;
+                Next = null;
+            }
+        }
+
+        public class LinkedList
+        {
+            public Node Head;
+
+
+            public void AddLast(char data)
+            {
+                Node newNode = new Node(data);
+
+                if(Head == null)
+                {
+                    Head = newNode;
+                    return;
+                }
+
+                Node current = GetLastNode();
+
+                current.Next = newNode;
+            }
+
+            public Node GetLastNode()
+            {
+                Node current = Head;
+
+                while (current.Next != null)
+                {
+                    current = current.Next;
+                }
+
+                return current;
+            }
         }
     }
 }
