@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort Integers by The Number
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number of Steps", "Number of Steps\Number of Steps.csproj", "{3C096154-B28B-488F-8694-E3D951A28722}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinOperations", "MinOperations\MinOperations.csproj", "{94AC5983-C32C-47B5-A34D-59BFCD6D2C8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3C096154-B28B-488F-8694-E3D951A28722}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C096154-B28B-488F-8694-E3D951A28722}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C096154-B28B-488F-8694-E3D951A28722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94AC5983-C32C-47B5-A34D-59BFCD6D2C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94AC5983-C32C-47B5-A34D-59BFCD6D2C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94AC5983-C32C-47B5-A34D-59BFCD6D2C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94AC5983-C32C-47B5-A34D-59BFCD6D2C8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
