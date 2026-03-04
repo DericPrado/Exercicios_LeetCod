@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Number of Steps", "Number o
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinOperations", "MinOperations\MinOperations.csproj", "{94AC5983-C32C-47B5-A34D-59BFCD6D2C8B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Kth Bit in Nth Binary String", "Find Kth Bit in Nth Binary String\Find Kth Bit in Nth Binary String.csproj", "{8985F6FB-E416-4388-BDED-04744697C691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Special Positions in a Binary Matrix", "Special Positions in a Binary Matrix\Special Positions in a Binary Matrix.csproj", "{37639755-237A-400B-AFD3-8F67334A0877}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{94AC5983-C32C-47B5-A34D-59BFCD6D2C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94AC5983-C32C-47B5-A34D-59BFCD6D2C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94AC5983-C32C-47B5-A34D-59BFCD6D2C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8985F6FB-E416-4388-BDED-04744697C691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8985F6FB-E416-4388-BDED-04744697C691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8985F6FB-E416-4388-BDED-04744697C691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8985F6FB-E416-4388-BDED-04744697C691}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37639755-237A-400B-AFD3-8F67334A0877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37639755-237A-400B-AFD3-8F67334A0877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37639755-237A-400B-AFD3-8F67334A0877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37639755-237A-400B-AFD3-8F67334A0877}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
