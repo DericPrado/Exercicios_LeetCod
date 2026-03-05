@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find Kth Bit in Nth Binary 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Special Positions in a Binary Matrix", "Special Positions in a Binary Matrix\Special Positions in a Binary Matrix.csproj", "{37639755-237A-400B-AFD3-8F67334A0877}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimum Changes To Make Alternating Binary String", "Minimum Changes To Make Alternating Binary String\Minimum Changes To Make Alternating Binary String.csproj", "{6539D15C-5B7C-459D-B6E6-DA5A928A6170}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{37639755-237A-400B-AFD3-8F67334A0877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37639755-237A-400B-AFD3-8F67334A0877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37639755-237A-400B-AFD3-8F67334A0877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6539D15C-5B7C-459D-B6E6-DA5A928A6170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6539D15C-5B7C-459D-B6E6-DA5A928A6170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6539D15C-5B7C-459D-B6E6-DA5A928A6170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6539D15C-5B7C-459D-B6E6-DA5A928A6170}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
