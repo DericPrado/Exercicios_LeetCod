@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check if Binary String Has 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find All Possible Stable Binary Arrays I", "Find All Possible Stable Binary Arrays I\Find All Possible Stable Binary Arrays I.csproj", "{5CD2A6E0-C449-46CD-BAA7-618712B381D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complement of Base 10 Integer", "Complement of Base 10 Integer\Complement of Base 10 Integer.csproj", "{21B8747F-076C-4A63-9503-4D983937C70E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{5CD2A6E0-C449-46CD-BAA7-618712B381D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CD2A6E0-C449-46CD-BAA7-618712B381D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CD2A6E0-C449-46CD-BAA7-618712B381D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B8747F-076C-4A63-9503-4D983937C70E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B8747F-076C-4A63-9503-4D983937C70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B8747F-076C-4A63-9503-4D983937C70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B8747F-076C-4A63-9503-4D983937C70E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
