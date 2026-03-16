@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complement of Base 10 Integ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximize Spanning Tree Stability with Upgrades", "Maximize Spanning Tree Stability with Upgrades\Maximize Spanning Tree Stability with Upgrades.csproj", "{AF5F6A92-0BD7-47B6-AA5D-5060CDCA0F73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maximum Number of Distinct Elements After Operations", "Maximum Number of Distinct Elements After Operations\Maximum Number of Distinct Elements After Operations.csproj", "{06D8CD29-F9C2-41F1-B98F-8EB4FC1DC74A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{AF5F6A92-0BD7-47B6-AA5D-5060CDCA0F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF5F6A92-0BD7-47B6-AA5D-5060CDCA0F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF5F6A92-0BD7-47B6-AA5D-5060CDCA0F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D8CD29-F9C2-41F1-B98F-8EB4FC1DC74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D8CD29-F9C2-41F1-B98F-8EB4FC1DC74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D8CD29-F9C2-41F1-B98F-8EB4FC1DC74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D8CD29-F9C2-41F1-B98F-8EB4FC1DC74A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
