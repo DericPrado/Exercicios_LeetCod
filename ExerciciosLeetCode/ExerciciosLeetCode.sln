@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimum Number of Seconds t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Submatrices with Top-Left Element and Sum Less Than k", "Count Submatrices with Top-Left Element and Sum Less Than k\Count Submatrices with Top-Left Element and Sum Less Than k.csproj", "{CA0AEC89-1FF9-48A3-959A-D473FA4A70FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count Submatrices With Equal Frequency of X and Y", "Count Submatrices With Equal Frequency of X and Y\Count Submatrices With Equal Frequency of X and Y.csproj", "{D5FEF04F-E80B-4250-B45C-07AD04C8D1CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{CA0AEC89-1FF9-48A3-959A-D473FA4A70FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA0AEC89-1FF9-48A3-959A-D473FA4A70FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA0AEC89-1FF9-48A3-959A-D473FA4A70FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FEF04F-E80B-4250-B45C-07AD04C8D1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FEF04F-E80B-4250-B45C-07AD04C8D1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FEF04F-E80B-4250-B45C-07AD04C8D1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FEF04F-E80B-4250-B45C-07AD04C8D1CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
