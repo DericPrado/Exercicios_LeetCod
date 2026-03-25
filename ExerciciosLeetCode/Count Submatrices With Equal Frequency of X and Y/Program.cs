@@ -16,6 +16,7 @@
         {
             int countSubmatrix = 0;
             int countX = 0;
+            int countY = 0;
             int rows = grid.Length;
             int cols = grid[0].Length;
 
@@ -31,10 +32,11 @@
                     }
                     else if (grid[i][j] == 'Y')
                     {
+                        countY++;
                         sum--;
                     }
 
-                    if(sum == 0 && countX > 0)
+                    if(sum == 0 && countX > 0 && countY == countX)
                     {
                         countSubmatrix++;
                     }
